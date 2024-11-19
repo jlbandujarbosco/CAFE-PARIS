@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+body {
+    padding: 0 20px 0 20px;
+    background-color: black;
+    background-image: url("images/taza-cafe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family: "Parisienne", cursive;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+
+}
+#eslogan {
+    font-family: "Caveat", cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 2em;
+    color:cornsilk;
+    border: 2px solid cornsilk;
+    width:40%;
+    margin:auto;
+
+}
+h2 {
+    font-family: "Pacifico", cursive;
+    color:#ffe4c4;
+}
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: "Pacifico", cursive;
+    color:white;
+}
+a:link {
+    color: white
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    color:darkgoldenrod
+}
+#texto-normal {
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color:#ffe4c4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+#logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;/* redondea */
+}
+#contenedor-logo {
+    text-align: center;
+}
